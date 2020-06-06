@@ -32,7 +32,7 @@ var EventSchema = new Schema({
     image: {
         type: String,
         default: 'no-photo.jpg'
-    } , 
+    } ,  
 
     category: {
         type: mongoose.Schema.ObjectId,
